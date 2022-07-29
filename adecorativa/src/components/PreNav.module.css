@@ -2,7 +2,7 @@
   padding: 10px;
   display: flex;
   background-color: #FCFFF5;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .container h1{
   margin-top: 14px;
@@ -37,6 +37,7 @@
 }
 
 #logo{
-  width: 200px;
+  width: 250px;
+  
   
 }

@@ -1,25 +1,26 @@
 import styles from './Formulario.module.css'
 function Formulario () {
   return (
-    <>
-    <section>
-      <h1>Fale conosco!</h1>
-      <div className={styles.form}>
-      <form>
-        <label>Nome</label>
-        <input type='text' name='nome'></input>
-        <div className={styles.emailTel}>
-        <label>E-mail</label>
-        <input type='email' name='email'></input>
-        <label>Telefone</label>
-        <input type='tel' name='telefone'></input>
-        </div>
-        <label>Descreva o motivo do seu contato</label>
-        <textarea name="motivo" rows="4" cols="50" ></textarea>
-      </form>
+    
+    <div className={styles.formContainer}>
+      <div>
+      <h1>Fale conosco</h1>
       </div>
-    </section>
-    </>
+      <form>
+        <label>Nome:</label>
+        <input type='text' name='nome' placeholder='João da Silva...' required></input> 
+        <label>E-mail:</label>     
+        <input type='email' name='email' placeholder='joãodaSilva@hotmail.com' required></input>        
+        <label>Telefone:</label>
+        <input type='tel' name='tel' placeholder='"(xx) xxxxx-xxxx"' required></input>
+        <label>Motivo do contato:</label>
+        <textarea placeholder='descreva como podemos te ajudar de forma resumida'></textarea>        
+        <button type='submit'>Enviar</button>
+        
+      </form>
+    
+    </div>
+    
   )
 }
 

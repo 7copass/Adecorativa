@@ -4,7 +4,7 @@ function localizacao() {
   return(
     <>
     <section className={styles.localizacao}>
-    <h1>Onde estamos:</h1>
+    <h1>Onde estamos</h1>
   <div className={styles.locText}>
   <img className={styles.imageLoc}src={loc}></img>
   <h4 className={styles.locText}>Fim de linha de Brotas - R. Campinas de Brotas, 754 - Jardim da saudade, Salvador - BA, 40275-160</h4>

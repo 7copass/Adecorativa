@@ -1,33 +1,33 @@
-.form{
-  margin-top: 200px;
-  margin-bottom: 200px;
-}
-form{
-  flex-direction: column;
+form {
   display: flex;
-  width: 700px;
+  flex-direction: column;
+  width: 35%;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-label {
-  text-align: center;
-  font-weight: 800;
-  margin: 7px;
-
+.formContainer label {
+  margin-top: 1.5rem;
+  font-size: 18px;
+  font-weight: 600;
 }
-input{
-  padding: 8px;
-  margin: 8px;
-  border: solid 1px blue;
-  
-
-
-
+.formContainer input {
+  font-size: 16px;
+  outline: none;
+  padding: 12px;
+  border-radius: 0.4rem;
 }
-.emailTel{
-  
+
+.formContainer textarea {
+  resize: vertical;
+  font-size: 16px;
+}
+
+.formContainer button {
   margin-left: auto;
   margin-right: auto;
-
+  width: 35%;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
 }

@@ -1,8 +1,9 @@
 nav{
   background-color: #243960;
-  padding: 10px;
+  padding: 10px 0; 
   width: 100%;
   height: 50px;
+  align-items: center;
   
 }
 ul{

@@ -1,6 +1,12 @@
 .localizacao{
   padding: 6px;
 }
+
+.localizacao h1 {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 60px;
+}
 .imageLoc{
   width: 100px;
   margin: 20px
